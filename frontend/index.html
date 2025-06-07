@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+</head>
+<body>
+    <section class="signup">
+        <h2>Sign up Now</h2>
+
+        <form action="http://localhost:3003/users" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" autofocus required><br><br>
+
+            <label for="email">Email</label></br>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Enter a password" required><br><br>
+
+            <input type="submit" value="Sign up">
+        </form>
+    </section>
+</body>
+</html>
